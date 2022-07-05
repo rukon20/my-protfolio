@@ -13,7 +13,7 @@ h1 {
   font-size: 70px;
   font-weight: 1500;
 }
-section {
+.flixable-container {
   display: flex;
   margin-top: 10px;
 }
@@ -39,4 +39,21 @@ section {
 }
 .second-section {
   background-color: brown;
+}
+.experience-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 15px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px gray;
+}
+#baby {
+  border-left: 7px solid tomato;
+}
+#full {
+  border-left: 7px solid blue;
+}
+footer p {
+  text-align: center;
 }
